@@ -1,0 +1,4 @@
+﻿  string.c
+C:\Users\guoxiaoyou\Desktop\C\代码\字符串和转义字符\字符串和转义字符\string.c(12,10): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+C:\Users\guoxiaoyou\Desktop\C\代码\字符串和转义字符\字符串和转义字符\string.c(38,21): warning C4013: “strlen”未定义；假设外部返回 int
+  字符串和转义字符.vcxproj -> C:\Users\guoxiaoyou\Desktop\C\代码\字符串和转义字符\x64\Debug\字符串和转义字符.exe
