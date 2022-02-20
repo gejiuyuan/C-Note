@@ -1,25 +1,25 @@
 /*
 * 
-*	Ò»¡¢³£Á¿ºÍºê
+*	ä¸€ã€å¸¸é‡å’Œå®
 * 
-*	#define£¬ËüÊÇÒ»¸öÔ¤´¦ÀíÖ¸Áî£¬¿ÉÓÃÀ´¶¨Òå³£Á¿£¨·ûºÅ£©ºÍºê
+*	#defineï¼Œå®ƒæ˜¯ä¸€ä¸ªé¢„å¤„ç†æŒ‡ä»¤ï¼Œå¯ç”¨æ¥å®šä¹‰å¸¸é‡ï¼ˆç¬¦å·ï¼‰å’Œå®
 * 
-*	¶þ¡¢ºê
+*	äºŒã€å®
 * 
-*		¼ÆËã»ú¿ÆÑ§ÀïµÄºê£¬ÊÇÒ»ÖÖ³éÏó£¨Abstraction£©£¬Ëü¸ù¾ÝÒ»ÏµÁÐÔ¤¶¨ÒåµÄ
-*		¹æÔòÌæ»»Ò»¶¨µÄÎÄ±¾Ä£Ê½¡¢½áÊøÆä»ò±àÒëÆ÷ÔÚÓöµ½ºêÊ±»á×Ô¶¯¾¡ÐÄÕâÒ»Ä£Ê½Ìæ»»¡£
+*		è®¡ç®—æœºç§‘å­¦é‡Œçš„å®ï¼Œæ˜¯ä¸€ç§æŠ½è±¡ï¼ˆAbstractionï¼‰ï¼Œå®ƒæ ¹æ®ä¸€ç³»åˆ—é¢„å®šä¹‰çš„
+*		è§„åˆ™æ›¿æ¢ä¸€å®šçš„æ–‡æœ¬æ¨¡å¼ã€ç»“æŸå…¶æˆ–ç¼–è¯‘å™¨åœ¨é‡åˆ°å®æ—¶ä¼šè‡ªåŠ¨å°½å¿ƒè¿™ä¸€æ¨¡å¼æ›¿æ¢ã€‚
 * 
-*		¼òµ¥Àí½â¾ÍÊÇ£ºÄ£Ê½Ìæ»»
+*		ç®€å•ç†è§£å°±æ˜¯ï¼šæ¨¡å¼æ›¿æ¢
 * 
 */
 
-// ¶¨ÒåÒ»¸öMAX³£Á¿£¨·ûºÅ£©
+// å®šä¹‰ä¸€ä¸ªMAXå¸¸é‡ï¼ˆç¬¦å·ï¼‰
 #define MAX 1000;
 
-// ¶¨ÒåÒ»¸öADD0ºê 
+// å®šä¹‰ä¸€ä¸ªADD0å® 
 #define ADD0(x, y) x + y;
 
-// ¶¨ÒåÒ»¸öADDºê
+// å®šä¹‰ä¸€ä¸ªADDå®
 #define ADD(x, y)(x + y);
 
 #include <stdio.h>;
@@ -27,17 +27,17 @@
 int main() {
 	int sum = ADD(2, 3);
 
-	//	´òÓ¡£º5
+	//	æ‰“å°ï¼š5
 	//printf("sum= %d\n", sum);
 	sum = 10 * ADD(2, 3);
-	//	´òÓ¡£º50
+	//	æ‰“å°ï¼š50
 	//printf("sum= %d\n", sum);
 
 	int sum2 = ADD0(2, 3);
-	//	´òÓ¡£º5£¬Ã»ÎÊÌâ
+	//	æ‰“å°ï¼š5ï¼Œæ²¡é—®é¢˜
 	//printf("%d\n", sum2);
 
-	//	´òÓ¡£º102£¬¶ø²»ÊÇ120
+	//	æ‰“å°ï¼š102ï¼Œè€Œä¸æ˜¯120
 	sum2 = 10 * ADD0(10, 2);
 	//printf("%d\n", sum2);
 }

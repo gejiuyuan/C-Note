@@ -1,25 +1,25 @@
 /*
 * 
-*	Ò»¡¢³£Á¿
+*	ä¸€ã€å¸¸é‡
 * 
-*		CÓïÑÔÖÐ³£Á¿·ÖÎªËÄÖÖ£º
+*		Cè¯­è¨€ä¸­å¸¸é‡åˆ†ä¸ºå››ç§ï¼š
 *			
-*			1. ×ÖÃæ³£Á¿
-*			2. constÐÞÊÎµÄ³£±äÁ¿(µ«±¾ÖÊ»¹ÊÇ±äÁ¿£©
-*			3. #define ¶¨ÒåµÄ±êÊ¶·û³£Á¿
-*			4. Ã¶¾Ù³£Á¿
+*			1. å­—é¢å¸¸é‡
+*			2. constä¿®é¥°çš„å¸¸å˜é‡(ä½†æœ¬è´¨è¿˜æ˜¯å˜é‡ï¼‰
+*			3. #define å®šä¹‰çš„æ ‡è¯†ç¬¦å¸¸é‡
+*			4. æžšä¸¾å¸¸é‡
 * 
 * 
 */
 
 #include <stdio.h>;
 
-//¶¨ÒåÒ»¸öMAX±êÊ¶·û³£Á¿
+//å®šä¹‰ä¸€ä¸ªMAXæ ‡è¯†ç¬¦å¸¸é‡
 #define MAX 10000;
 
-//¶¨ÒåÒ»¸öSex±äÁ¿
+//å®šä¹‰ä¸€ä¸ªSexå˜é‡
 enum Sex {
-	//Ã¶¾Ù³£Á¿
+	//æžšä¸¾å¸¸é‡
 	MALE,
 	FEMALE,
 	SECRET
@@ -27,31 +27,31 @@ enum Sex {
 
 int main() {
 
-	// 1¡¢×ÖÃæ³£Á¿£¬ÔÊÐí´æÔÚ£¬µ«ÊÇÃ»ÓÐÒâÒå
+	// 1ã€å­—é¢å¸¸é‡ï¼Œå…è®¸å­˜åœ¨ï¼Œä½†æ˜¯æ²¡æœ‰æ„ä¹‰
 	3.14;
 	"char";
 
-	// 2¡¢constÐÞÊÎµÄ³£±äÁ¿
+	// 2ã€constä¿®é¥°çš„å¸¸å˜é‡
 	const int num = 10;
 	printf("num = %d\n", num);
 
-	// 10¸öÔªËØ
+	// 10ä¸ªå…ƒç´ 
 	int arr[10] = { 0 };
 
-	// »á±¨´í
+	// ä¼šæŠ¥é”™
 	//int n = 10;
 	//int arr2[n] = { 19 };
 	
-	// »¹ÊÇ´íÎóÐ´·¨
+	// è¿˜æ˜¯é”™è¯¯å†™æ³•
 	//const int n3 = 10;
 	//int arr3[n3] = { 10 };
 
-	// 3¡¢#define ±êÊ¶·û³£Á¿
+	// 3ã€#define æ ‡è¯†ç¬¦å¸¸é‡
 	int h = MAX;
-	// ´òÓ¡10000
+	// æ‰“å°10000
 	printf("h = %d\n", h);
 
-	// 4¡¢Ã¶¾Ù³£Á¿
+	// 4ã€æžšä¸¾å¸¸é‡
 	enum Sex s = FEMALE;
 
 	// 0

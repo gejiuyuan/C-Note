@@ -1,9 +1,9 @@
 /*
 *  
-*	Ò»¡¢½á¹¹Ìå
+*	ä¸€ã€ç»“æž„ä½“
 * 
-*		½á¹¹ÌåÊ¹µÃCÓïÑÔÓÐÄÜÁ¦ÃèÊö¸´ÔÓÀàÐÍ¡£±ÈÈçÃèÊöÑ§Éú£¬Ñ§Éú°üº¬£ºÃû×Ö¡¢ÄêÁä¡¢ÐÔ±ð¡¢Ñ§ºÅ
-		¾Í¿ÉÒÔÓÃ½á¹¹ÌåÀ´ÃèÊöÕâÐ©ÐÅÏ¢¡£
+*		ç»“æž„ä½“ä½¿å¾—Cè¯­è¨€æœ‰èƒ½åŠ›æè¿°å¤æ‚ç±»åž‹ã€‚æ¯”å¦‚æè¿°å­¦ç”Ÿï¼Œå­¦ç”ŸåŒ…å«ï¼šåå­—ã€å¹´é¾„ã€æ€§åˆ«ã€å­¦å·
+		å°±å¯ä»¥ç”¨ç»“æž„ä½“æ¥æè¿°è¿™äº›ä¿¡æ¯ã€‚
 * 
 * 
 */
@@ -11,21 +11,21 @@
 #include <stdio.h>;
 
 struct Stu {
-	char name[20]; //Ãû×Ö
-	int age; //ÄêÁä
-	char sex[5]; //ÐÔ±ð
-	char id[15]; //Ñ§ºÅ
+	char name[20]; //åå­—
+	int age; //å¹´é¾„
+	char sex[5]; //æ€§åˆ«
+	char id[15]; //å­¦å·
 };
 
 int main() {	
 
-	// ½á¹¹ÌåµÄ´´½¨ºÍ³õÊ¼»¯
-	// ×¢Òâ£º½á¹¹ÌåÀïÃæµÄ×Ö·û´®±ØÐëÊ¹ÓÃË«ÒýºÅ
-	struct Stu s = { "ÕÅÈý", 20, "ÄÐ", "34" };
+	// ç»“æž„ä½“çš„åˆ›å»ºå’Œåˆå§‹åŒ–
+	// æ³¨æ„ï¼šç»“æž„ä½“é‡Œé¢çš„å­—ç¬¦ä¸²å¿…é¡»ä½¿ç”¨åŒå¼•å·
+	struct Stu s = { "å¼ ä¸‰", 20, "ç”·", "34" };
 
 	printf("1: %s %d %s %s\n", s.name, s.age, s.sex, s.id);
 
-	// Í¨¹ýstructÊý¾ÝµØÖ·»ñÈ¡ÊôÐÔÖµ
+	// é€šè¿‡structæ•°æ®åœ°å€èŽ·å–å±žæ€§å€¼
 	struct Stu* ps = &s;
 	printf("2: %s\n", (* ps).name);
 	printf("3: %s\n", ps->name);

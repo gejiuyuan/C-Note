@@ -1,6 +1,6 @@
 int global = 2022;
 
-// ±íÊ¾global_numÖ»ÄÜÔÚ´ËÎÄ¼şÖĞÊ¹ÓÃ
+// è¡¨ç¤ºglobal_numåªèƒ½åœ¨æ­¤æ–‡ä»¶ä¸­ä½¿ç”¨
 static int global_num = 2021;
 
 int Add(int x, int y) {

@@ -1,29 +1,29 @@
 /*
 * 
-*  Ò»¡¢Êı¾İÀàĞÍ
+*  ä¸€ã€æ•°æ®ç±»å‹
 * 
-*	ÀàĞÍ		º¬Òå				¿Õ¼ä´óĞ¡£¨×Ö½Ú£©
+*	ç±»å‹		å«ä¹‰				ç©ºé—´å¤§å°ï¼ˆå­—èŠ‚ï¼‰
 *	
-*	char		×Ö·ûÊı¾İÀàĞÍ		1
-*	short		¶ÌÕûĞÍ				2
-*	int			ÕûĞÍ				4
-*	long		³¤ÕûĞÍ				4
-*	long long   ¸ü³¤µÄÕûĞÍ			8
-*	float		µ¥¾«¶È¸¡µãÊı		4
-*	double		Ë«¾«¶È¸¡µãÊı		8
+*	char		å­—ç¬¦æ•°æ®ç±»å‹		1
+*	short		çŸ­æ•´å‹				2
+*	int			æ•´å‹				4
+*	long		é•¿æ•´å‹				4
+*	long long   æ›´é•¿çš„æ•´å‹			8
+*	float		å•ç²¾åº¦æµ®ç‚¹æ•°		4
+*	double		åŒç²¾åº¦æµ®ç‚¹æ•°		8
 * 
-*	sizeof£º¹Ø¼ü×Ö¡¢²Ù×÷·û£¬ÓÃÓÚ¼ÆËã±äÁ¿ËùÕ¼¿Õ¼ä´óĞ¡(µ¥Î»£º×Ö½Ú£©
+*	sizeofï¼šå…³é”®å­—ã€æ“ä½œç¬¦ï¼Œç”¨äºè®¡ç®—å˜é‡æ‰€å ç©ºé—´å¤§å°(å•ä½ï¼šå­—èŠ‚ï¼‰
 *	
-*	×¢Òâ£º
+*	æ³¨æ„ï¼š
 *	
-*		1¡¢CÓïÑÔ±ê×¼¹æ¶¨£ºsizeof(long) >= sizeof(int)¼´¿É£¬ËùÒÔ¿ÉÄÜÊÇ4£¬Ò²¿ÉÄÜÊÇ8
+*		1ã€Cè¯­è¨€æ ‡å‡†è§„å®šï¼šsizeof(long) >= sizeof(int)å³å¯ï¼Œæ‰€ä»¥å¯èƒ½æ˜¯4ï¼Œä¹Ÿå¯èƒ½æ˜¯8
 * 
 *	
 */
 
 #include <stdio.h>;
 
-//×¢ÊÍ¿ì½İ¼ü
+//æ³¨é‡Šå¿«æ·é”®
 
 //int main() {
 //	char ch = "gejiuyuan";
@@ -58,27 +58,27 @@
 
 /*
 *
-*	¶ş¡¢³£ÁÁ¡¢±äÁ¿
+*	äºŒã€å¸¸äº®ã€å˜é‡
 *
 * 
-*	1¡¢scanf£ºÊäÈëº¯Êı
+*	1ã€scanfï¼šè¾“å…¥å‡½æ•°
 * 
-*		Ê¹ÓÃ¸Ãº¯ÊıÊ±»á±¨´í£º'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-*		½â¾ö·½°¸£º
-*			1. Ê¹ÓÃscanf_sÌæ´ú¡£×¢Òâ£ºÕâÊÇVS±àÒëÆ÷Ìá¹©µÄ£¬²»·ûºÏCÓïÑÔ±ê×¼£¬¶øÇÒÓÃ·¨Óëscanf´æÔÚ²î±ğ
-*			2. ÔÚVS-ÏîÄ¿-Êı¾İÀàĞÍ ÊôĞÔ-ÅäÖÃÊôĞÔ-C/C++-Ô¤´¦ÀíÆ÷-Ô¤´¦ÀíÆ÷¶¨Òå£¬Ôö¼Ó_CRT_SECURE_NO_DEPRECATEºê¼´¿É
-*			3. ÔÚÏîÄ¿ÎÄ¼şµÚÒ»ĞĞ£¨×î¿ªÍ·ĞĞ£©£¬Ôö¼Ó£º#define _CRT_SECURE_NO_DEPRECATE 1
+*		ä½¿ç”¨è¯¥å‡½æ•°æ—¶ä¼šæŠ¥é”™ï¼š'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+*		è§£å†³æ–¹æ¡ˆï¼š
+*			1. ä½¿ç”¨scanf_sæ›¿ä»£ã€‚æ³¨æ„ï¼šè¿™æ˜¯VSç¼–è¯‘å™¨æä¾›çš„ï¼Œä¸ç¬¦åˆCè¯­è¨€æ ‡å‡†ï¼Œè€Œä¸”ç”¨æ³•ä¸scanfå­˜åœ¨å·®åˆ«
+*			2. åœ¨VS-é¡¹ç›®-æ•°æ®ç±»å‹ å±æ€§-é…ç½®å±æ€§-C/C++-é¢„å¤„ç†å™¨-é¢„å¤„ç†å™¨å®šä¹‰ï¼Œå¢åŠ _CRT_SECURE_NO_DEPRECATEå®å³å¯
+*			3. åœ¨é¡¹ç›®æ–‡ä»¶ç¬¬ä¸€è¡Œï¼ˆæœ€å¼€å¤´è¡Œï¼‰ï¼Œå¢åŠ ï¼š#define _CRT_SECURE_NO_DEPRECATE 1
 
 *	
 * 
 */
 
-// È«¾Ö±äÁ¿
+// å…¨å±€å˜é‡
 //int global = 200;
 
 //int main()
 //{
-	// ¾Ö²¿±äÁ¿
+	// å±€éƒ¨å˜é‡
 
 	//int age = 30;
 	//float height = 180;
@@ -87,18 +87,18 @@
 
 	//age += 2;
 
-	// intÀàĞÍ
+	// intç±»å‹
 	//printf("%d\n", age);
 
-	// floatÀàĞÍ
+	// floatç±»å‹
 	//printf("%f\n", height);
 
-	// doubleÀàĞÍ
+	// doubleç±»å‹
 	//printf("%lf\n", weight);
 
 	//sum = age + age;
 
-	// &ÊÇµØÖ·ÔËËã·û£¬»ñÈ¡±äÁ¿µÄÄÚ´æµØÖ·
+	// &æ˜¯åœ°å€è¿ç®—ç¬¦ï¼Œè·å–å˜é‡çš„å†…å­˜åœ°å€
 	//scanf_s("%d%", &age, &height);
 	//scanf("%lf", &weight);
 

@@ -1,8 +1,8 @@
 #include <stdio.h>;
 
-// ÒòÎªglobal_ageÔÚglobal_vars.cÖĞÉúÃüÁËÈ«¾Ö±äÁ¿£¬
-// ¶øÈç¹û´ËÎÄ¼ş£¨main.c£©ÖĞÒªÊ¹ÓÃµÄ»°£¬ÔòĞèÒªÊ¹ÓÃ
-// extern¹Ø¼ü×ÖÉùÃ÷
+// å› ä¸ºglobal_ageåœ¨global_vars.cä¸­ç”Ÿå‘½äº†å…¨å±€å˜é‡ï¼Œ
+// è€Œå¦‚æœæ­¤æ–‡ä»¶ï¼ˆmain.cï¼‰ä¸­è¦ä½¿ç”¨çš„è¯ï¼Œåˆ™éœ€è¦ä½¿ç”¨
+// externå…³é”®å­—å£°æ˜
 extern int global_age;
 
 int mian() {
