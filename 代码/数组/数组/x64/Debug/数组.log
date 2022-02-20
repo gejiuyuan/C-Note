@@ -1,9 +1,0 @@
-﻿  arr.c
-C:\Users\guoxiaoyou\Desktop\C\代码\数组\数组\arr.c(12,10): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
-C:\Users\guoxiaoyou\Desktop\C\代码\数组\数组\arr.c(13,10): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
-C:\Users\guoxiaoyou\Desktop\C\代码\数组\数组\arr.c(42,1): warning C4047: “初始化”:“int”与“char [2]”的间接级别不同
-C:\Users\guoxiaoyou\Desktop\C\代码\数组\数组\arr.c(45,1): warning C4047: “初始化”:“int”与“char [3]”的间接级别不同
-C:\Users\guoxiaoyou\Desktop\C\代码\数组\数组\arr.c(45,1): warning C4047: “初始化”:“int”与“char [4]”的间接级别不同
-C:\Users\guoxiaoyou\Desktop\C\代码\数组\数组\arr.c(45,1): warning C4047: “初始化”:“int”与“char [5]”的间接级别不同
-C:\Users\guoxiaoyou\Desktop\C\代码\数组\数组\arr.c(25,6): warning C4101: “arr”: 未引用的局部变量
-  数组.vcxproj -> C:\Users\guoxiaoyou\Desktop\C\代码\数组\x64\Debug\数组.exe

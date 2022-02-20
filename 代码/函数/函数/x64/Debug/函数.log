@@ -1,6 +1,0 @@
-﻿  func.c
-C:\Users\guoxiaoyou\Desktop\C\代码\函数\函数\func.c(48,10): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
-C:\Users\guoxiaoyou\Desktop\C\代码\函数\函数\func.c(49,10): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
-C:\Users\guoxiaoyou\Desktop\C\代码\函数\函数\func.c(63,10): warning C4477: “printf”: 格式字符串“%p”需要类型“void *”的参数，但可变参数 1 拥有了类型“int”
-C:\Users\guoxiaoyou\Desktop\C\代码\函数\函数\func.c(63,10): warning C4313: “printf”: 格式字符串中的“%p”与“int”类型的参数 1 冲突
-  函数.vcxproj -> C:\Users\guoxiaoyou\Desktop\C\代码\函数\x64\Debug\函数.exe
