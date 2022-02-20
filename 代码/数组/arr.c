@@ -9,8 +9,8 @@
 *		
 */
 
-#include <stdio.h>;
-#include <string.h>;
+#include <stdio.h>
+#include <string.h>
 
 #define char_num2 30;
 
@@ -37,17 +37,20 @@ int main() {
 	//完全初始化
 	int c_arr[5] = { 0,1,2,3,4 };//5个元素
 	int c1_arr[] = { 0,1,2,3,4 }; //5个元素
-	int ccl_arr[] = "01234"; //['0', '1','2', '3', '4', '\0']，6个元素
+	// 注意：此种写法在MSVC编译器中能通过，但gcc则会报错
+	// int ccl_arr[] = "01234"; //['0', '1','2', '3', '4', '\0']，6个元素
+	printf("%p\n", c1_arr);
 
 	//不完全初始化，未初始化默认填充为0
 	//注意，此处传入字符串等其它值，都会被转为数字
 	//如果值是单引号的字符串，如'P'，则为80（ASCII码）
-	int nc_arr[5] = { 0 , 1, "p", 'p', 'P'};
+	// 注意：此种写法在MSVC编译器中能通过，但gcc则会报错
+	// int nc_arr[5] = { 0 , 1, "p", 'p', 'P'};
 
 	//不完全初始化，未初始化部分默认填充为"\0"（ASICC码为0）
-	int nc_char_arr[5] = { "ge", "jiu", "yuan", };
+	// int nc_char_arr[5] = { "ge", "jiu", "yuan", };
 
-	printf("%d %d %d %d\n", nc_arr[0], nc_arr[2], nc_arr[3], nc_arr[4]);
+	// printf("%d %d %d %d\n", nc_arr[0], nc_arr[2], nc_arr[3], nc_arr[4]);
 	//printf("%p\n", &nc_arr);
 	return 0;
 
